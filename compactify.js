@@ -18,6 +18,11 @@ function eventHandler(e) {
 		return;
 	}
 	
+	//don't compactify any link to reddit.com/gallery
+	if (url.includes("reddit.com/gallery") {
+		return;
+	}
+	
 	//return if already a compact link
 	if (url.includes(".compact")) {
 		return;
