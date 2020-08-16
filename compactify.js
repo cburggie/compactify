@@ -19,7 +19,7 @@ function eventHandler(e) {
 	}
 	
 	//don't compactify any link to reddit.com/gallery
-	if (url.includes("reddit.com/gallery") {
+	if (url.includes("reddit.com/gallery")) {
 		return;
 	}
 	
